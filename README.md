@@ -1,17 +1,18 @@
-# I Am Developer curriculum vitae LaTeX class
+# I Am Developer curriculum vitae and cover letter LaTeX classes
 
-This is a custom implemented latex class that extends the LaTeX `extarticle` class.  The `extarticle` class is used purely to extend the range of the default font sizes supported by `article`.
+The `i-am-developer` curriculum vitae (CV) package consists of two LaTeX classes: `i-am-developer.cls` and `i-am-developer-letter.cls`.  The cover letter class extends from the `i-am-developer` class, which extends from the LaTeX `extarticle` class.  The `extarticle` class is used purely to extend the range of the default font sizes supported by `article`.
 
 ## Design
 
-The goal of this LaTeX class is to demonstrate both technical acumen and some design expression.
+The goal of this LaTeX class is to demonstrate both technical acumen and some design expression.  I wanted to have a CV that stood out in a crowded field and showcased both my extensive experience as well as my publications.
 
 ## Requirements
 
-You can find the LaTeX build tools at [TeX Users Group](https://tug.org/).  The default installation of [MacTeX](https://tug.org/mactex/mactex-download.html) includes all the required packages to successfully compile the `i-am-developer` LaTeX class. 
+You can find the LaTeX build tools at [TeX Users Group](https://tug.org/).  The default installation of [MacTeX](https://tug.org/mactex/mactex-download.html) includes all the required packages to successfully compile the `i-am-developer` and `i-am-developer-letter` LaTeX classes. 
 
 ## Usage
-The `curriculum_vitae.tex` file is the starting point for editing.  It contains several sections from [@eaoliver](https://github.com/eaoliver/)'s  CV.  
+
+The `curriculum_vitae.tex` and `coverletter.tex` files are the starting point for editing.  The sample CV contains several sections from [@eaoliver](https://github.com/eaoliver/)'s  CV.  The cover letter sample contains lorem ipsum content.
 
 ## Compilation 
 
@@ -19,4 +20,4 @@ The package includes a standard **makefile** for command line compilation.  Thos
 
 ## Limitations
 
-I chose not to integrate LaTeX's bibliography functionality into the class.  Instead I hand format my publications, which are no longer being expanded.  Those actively publishing and adding new entries may wish to invest the time to incorporate [BibTeX](https://www.bibtex.org/) support. 
+I chose not to integrate LaTeX's bibliography functionality into the class.  Instead I hand format my publications. Those actively publishing and adding new entries may wish to invest the time to incorporate [BibTeX](https://www.bibtex.org/) support. 
