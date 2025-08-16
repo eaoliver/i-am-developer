@@ -1,10 +1,10 @@
-# I Am Developer curriculum vitae and cover letter LaTeX classes
+# I Am Developer: CV and Cover Letter LaTeX Classes
 
 The `i-am-developer` curriculum vitae (CV) package consists of two LaTeX classes: `i-am-developer.cls` and `i-am-developer-letter.cls`.  The cover letter class extends from the `i-am-developer` class, which extends from the LaTeX `extarticle` class.  The `extarticle` class is used purely to extend the range of the default font sizes supported by `article`.
 
 ## Design
 
-The goal of this LaTeX class is to demonstrate both technical acumen and some design expression.  I wanted to have a CV that stood out in a crowded field and showcased both my extensive experience as well as my publications.
+The goal of this LaTeX class is to demonstrate both technical acumen and some design expression.  I wanted a CV that stood out in a crowded field and showcased both my extensive experience as well as my publications.
 
 ## Requirements
 
