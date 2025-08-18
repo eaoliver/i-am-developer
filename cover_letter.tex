@@ -1,0 +1,43 @@
+%!TEX TS-program = xelatex
+\documentclass[11pt, letterpaper, extended]{i-am-developer-letter}
+% Other supported options:
+% bookmarks, hyperindex, debug
+
+\usepackage{lipsum}   % Dummy text NOTE: can be deleted
+
+\name{Foo}{Bar}{Ph.D.}
+\title{Dr. Foo Bar's CV}
+
+% Personal metadata
+\linkedin{eaoliver}
+\github{eaoliver}
+\xhandle{eaoliver}
+\email{foo.bar@gmail.com}
+\phone{123-456-7890}
+\web{https://example.com}{example.com}
+\address{Exampleville}{ON}{Canada}{A0B 1C2}
+
+% Set the date to today or any other string.
+\setDate{\today}
+
+\companyName{Awesome Company Co.}
+\companyAddress{Canada (Remote)}
+
+\begin{document}
+
+% Generate the name and the various page metadata
+\nameSection{}
+
+\companyHeader
+
+\letterContent{\lipsum[1]}
+
+\letterContent{\lipsum[1]}
+
+\letterContent{\lipsum[1]}
+
+\closing{Sincerely}
+
+\signature{Foo Bar}
+
+\end{document}

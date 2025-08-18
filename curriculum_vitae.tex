@@ -1,0 +1,298 @@
+%!TEX TS-program = xelatex
+\documentclass[11pt, letterpaper, extended ]{i-am-developer}
+% Other supported options:
+% bookmarks, hyperindex, debug
+
+\usepackage{lipsum}   % Dummy text
+
+\name{Foo}{Bar}{Ph.D.}
+\title{Foo Bar's CV}
+
+% Personal metadata
+\linkedin{eaoliver}
+\github{eaoliver}
+\xhandle{eaoliver}
+\email{foo.bar@gmail.com}
+\phone{123-456-7890}
+\web{https://example.com}{example.com}
+\address{Exampleville}{ON}{Canada}{A0B 1C2}
+
+\setDate{August, 2025}
+
+\begin{document}
+
+\nameSection{\lipsum[1]}
+
+\begin{devCVSection}{Experience}{sec:experience}
+  \begin{devRole}{Chief Code Wizard}[BananaCloud Inc.][Moon Base
+    Alpha][Jan 2023--Present][\faMagic][\faMapMarker][Rust, Haskell,
+    COBOL][Quantum Computing, SaaS, Kubernetes, Blockchain for Cats]
+    \begin{devItemize}
+    \item Engineered a distributed hamster wheel power grid that
+      reduced hamster burnout by 73\%.
+    \item Deployed a blockchain solution for catnip trading, ensuring
+      tamper-proof feline happiness.
+    \item Migrated monolithic cheese-ordering system into
+      microservices, cutting delivery times by 42 seconds.
+    \item Wrote 10,000 lines of self-documenting code in Comic Sans.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Senior Bug Whisperer}[Error 404
+    Solutions][Atlantis][May 2020--Dec
+    2022][\faBug][\faMapMarker][PHP, Perl 4, Fortran][Bug Herding,
+    Debugging by Intuition, Coffee-Driven Development]
+    \begin{devItemize}
+    \item Debugged production with a crystal ball, reducing outage
+      times by an average of 4.2 hours.
+    \item Converted 12 million lines of spaghetti code into lasagna
+      code layered with comments.
+    \item Led daily standups on pogo sticks to improve team morale
+      and calf strength.
+    \item Implemented agile waterfall methodology, confusing everyone equally.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Junior Galactic Intern}[Space Unicorn
+    Enterprises][Mars Colony 7][Jun 2018--Apr
+    2020][\faRocket][\faMapMarker][JavaScript, Brainfuck, Excel
+    Macros][Interplanetary Networking, Snack Optimization,
+    Low-Gravity Pair Programming]
+    \begin{devItemize}
+    \item Designed an AI that predicted lunch breaks with 99.9\% accuracy.
+    \item Automated spaceship door sounds using Node.js and a squeaky
+      rubber chicken.
+    \item Developed a Mars-compatible dating app with only 3 active
+      users (all astronauts).
+    \item Wrote SQL queries that returned zero rows, every single time.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Open Source Evangelist}[Hipster Coffee
+    Labs][Brooklyn, United States][Jan 2015--May
+    2018][\faCoffee][\faMapMarker][Go, Elm, Hand-Crafted
+    Assembly][Artisanal Algorithms, Serverless Espresso, CI/CD
+    (Coffee in / Donuts out)]
+    \begin{devItemize}
+    \item Published 47 open source libraries, each downloaded exactly
+      once (by my mom).
+    \item Containerized an entire café menu into Docker images,
+      reducing brew latency by 5ms.
+    \item Advocated for functional avocado programming at 12
+      international brunch conferences.
+    \item Replaced all Scrum ceremonies with interpretive dance.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Apprentice of Infinite Loops}[The Department of
+    Redundancy Department][Nowhere, Everywhere][Sep 2012--Dec
+    2014][\faToilet][\faMapMarker][Pascal, Lisp, BASIC][Recursive
+    Thinking, Circular References, Loop Optimization]
+    \begin{devItemize}
+    \item Implemented a loop that ran forever, generating infinite job security.
+    \item Created recursive acronyms that defined themselves.
+    \item Optimized while(true) statements to run twice as fast.
+    \item Accidentally wrote an AI that only said “Hello World” forever.
+    \end{devItemize}
+  \end{devRole}
+\end{devCVSection}
+
+\begin{devCVSection}{Research Experience}{sec:research}
+  \begin{devRole}{Principal Investigator}[Institute for Advanced
+    Sandwich Studies][Bologna, Italy][Jan
+    2021--Present][\faFlask][\faMapMarker][Python, MATLAB, Yeast
+    Cultures][Food Science, Machine Learning, Sandwich Optimization]
+    \begin{devItemize}
+    \item Conducted groundbreaking experiments on the optimal ratio
+      of peanut butter to jelly in low-gravity environments.
+    \item Trained a convolutional neural network to identify
+      sandwiches with a 94\% accuracy rate (except paninis).
+    \item Published 12 peer-reviewed articles in the Journal of
+      Hypothetical Gastronomy.
+    \item Secured \$3.5M in funding from the Global Mayo Foundation
+      for studies on condiment distribution algorithms.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Visiting Scholar}[Department of Cryptozoological
+    Computing][Transylvania University][Sep 2018--Dec
+    2020][\faBook][\faMapMarker][C++, LaTeX, Vampire Bat
+    DNA][Mythical Creatures, Distributed Systems, Fog Computing]
+    \begin{devItemize}
+    \item Designed blockchain protocols to verify sightings of the
+      Loch Ness Monster.
+    \item Implemented distributed algorithms for werewolf tracking
+      under full-moon network conditions.
+    \item Supervised Ph.D. students researching latency issues in
+      ghost-to-ghost communication channels.
+    \item Presented results at the International Symposium on
+      Imaginary Beings (ISIB 2019).
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Research Assistant}[Center for Time Travel
+    Studies][Cambridge, United Kingdom][Jun 2015--Aug
+    2018][\faClock][\faMapMarker][Quantum Fortran, Temporal SQL,
+    Wormhole APIs][Chrono-Engineering, Paradox Resolution, Temporal Data Mining]
+    \begin{devItemize}
+    \item Built a prototype flux capacitor using recycled GPUs and duct tape.
+    \item Conducted double-blind studies with participants from both
+      the past and the future.
+    \item Authored “Towards a Unified Theory of Lunch Yesterday and
+      Tomorrow” in the Journal of Temporal Snacks.
+    \item Debugged an experiment that accidentally created three
+      copies of the Principal Investigator.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Doctoral Candidate}[University of Underwater Basket
+    Weaving][Atlantis][Sep 2010--May
+    2015][\faGraduationCap][\faMapMarker][Perl, R, Scuba
+    Diving][Marine Robotics, Basket Simulation, Weaving Theory]
+    \begin{devItemize}
+    \item Modeled hydrodynamic efficiency of woven kelp baskets under
+      varying ocean currents.
+    \item Deployed a swarm of autonomous weaving drones to construct
+      coral-friendly shopping bags.
+    \item Defended a dissertation titled “Towards a Post-Plastic
+      Future: Submersible Basket Networks”.
+    \item Awarded “Most Innovative Thesis” at the International
+      Conference on Wet Textile Systems.
+    \end{devItemize}
+  \end{devRole}
+\end{devCVSection}
+
+\begin{devCVSection}{Teaching}{sec:teaching}
+  \begin{devRole}{Professor of Applied Memeology}[University of
+    Internet Culture][Reddit City, Cyberspace][Sep
+    2020--Present][\faGraduationCap][\faMapMarker][Photoshop, TikTok,
+    Python][Meme Studies, Viral Algorithms, Influencer Pedagogy]
+    \begin{devItemize}
+    \item Designed and taught the world’s first accredited course on
+      “Dank Meme Engineering 101”.
+    \item Supervised graduate students on theses exploring the
+      half-life of memes on different social platforms.
+    \item Integrated TikTok-based assignments into the curriculum,
+      boosting student engagement by 900\%.
+    \item Published a textbook: *From Doge to Wojak: A Pedagogical Journey*.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Adjunct Lecturer in Quantum Coffee
+    Brewing}[Institute of Caffeinated Studies][Seattle, United
+    States][Jan 2017--Aug 2020][\faCoffee][\faMapMarker][Java,
+    JavaBeans, Espresso Machines][Quantum Brewing, Agile Espresso, CoffeeOps]
+    \begin{devItemize}
+    \item Taught hands-on labs in “Parallel Espresso Extraction”
+      using Kubernetes to orchestrate coffee pods.
+    \item Led seminars on the Schrödinger’s Latte experiment,
+      exploring foam collapse in superposition.
+    \item Designed a syllabus merging DevOps pipelines with artisanal
+      roasting techniques.
+    \item Received a 4.9/5 rating on student evaluations (with bonus
+      points for latte art).
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Teaching Assistant, Advanced Dragon
+    Training}[School of Mythical Creatures][Remote Castle Campus][Sep
+    2014--Dec 2016][\faFire][\faMapMarker][C++, Fireproof Notebooks,
+    Magic Chalk][Flight Dynamics, Flame Control, Risk Mitigation]
+    \begin{devItemize}
+    \item Assisted in labs where students learned safe dragon-riding techniques.
+    \item Graded assignments on dragon taxonomy and flame color optimization.
+    \item Conducted weekly tutorials in fireproof classrooms with
+      minimal student casualties.
+    \item Organized the annual inter-university dragon race, securing
+      accreditation from the Wizard Council.
+    \end{devItemize}
+  \end{devRole}
+
+  \begin{devRole}{Instructor, Intro to Underwater Coding}[Neptune
+    Polytechnic][Atlantis][May 2010--Aug
+    2014][\faAnchor][\faMapMarker][Perl, Java, Snorkels][Subaquatic
+    Programming, Waterproof Algorithms, Aquatic IoT]
+    \begin{devItemize}
+    \item Developed a waterproof laptop lab, enabling real-time
+      coding practice in saltwater environments.
+    \item Taught fundamentals of bubble-sort using actual bubbles.
+    \item Coordinated hackathons held inside aquariums, judged by an
+      octopus faculty panel.
+    \item Pioneered the “Code \& Dive” teaching methodology, later
+      adopted by coral reefs worldwide.
+    \end{devItemize}
+  \end{devRole}
+\end{devCVSection}
+
+\begin{devCVSection}{Publications}{sec:publications}
+
+  \begin{devPublicationType}[Ph.D. Thesis]
+    \devTwoColRow{A. N. Other.
+      \href{https://example.com/thesis.pdf}{\bf
+        ``Towards a Unified Theory of Left Socks: Distributed Systems
+      for Laundry''}.
+    University of Nowhere.}{April 2021}
+  \end{devPublicationType}
+
+  \begin{devPublicationType}[Conference / Workshop]
+    \devTwoColRow{Jane Doe, John Q. Public.
+      \href{https://example.com/conf1.pdf}{\bf
+      ``Evaluating Pizza Delivery Latency in Multi-Cloud Environments''}.
+      \emph{Proceedings of the International Conference on Snackable
+      Computing (SnackCom)}.
+    Rome, Italy.}{September 2022}
+    \devRowSkip
+    \devTwoColRow{X. Y. Zed.
+      \href{https://example.com/conf2.pdf}{\bf
+      ``A Comparative Study of Quantum Spreadsheets and Excel Macros''}.
+      \emph{Workshop on Post-Quantum Office Productivity (PQOP)}.
+    Tokyo, Japan.}{June 2021}
+    \devRowSkip
+    \devTwoColRow{L. Ipsum, D. Dolor.
+      \href{https://example.com/conf3.pdf}{\bf
+      ``Scalability Challenges in Unicorn Herding Simulations''}.
+      \emph{Proceedings of the Symposium on Mythical Systems (MythSys)}.
+    Reykjavík, Iceland.}{August 2020}
+  \end{devPublicationType}
+
+  \begin{devPublicationType}[Journal]
+    \devTwoColRow{Foo Bar, Baz Quux.
+      \href{https://example.com/journal1.pdf}{\bf
+      ``On the Entropy of Random Cat Pictures''}.
+    \emph{Journal of Internet Studies}.}{March 2023}
+    \devRowSkip
+    \devTwoColRow{S. Scholar, T. Testerson.
+      \href{https://example.com/journal2.pdf}{\bf
+      ``Machine Learning Approaches to Predicting Coffee Break Duration''}.
+    \emph{International Journal of Caffeinated Research}.}{December 2021}
+  \end{devPublicationType}
+
+  \begin{devPublicationType}[Technical Reports]
+    \devTwoColRow{Alice Example, Bob Placeholder.
+      \href{https://example.com/tr1.pdf}{\bf
+      ``Preliminary Findings on Autonomous Sandwich Assembly''}.
+    Institute of Culinary Automation, Tech Report \#TR-42.}{July 2019}
+    \devRowSkip
+    \devTwoColRow{C. Scientist.
+      \href{https://example.com/tr2.pdf}{\bf
+      ``Benchmarking Potato Battery Performance in Edge Computing''}.
+    Department of Renewable Snacks, Tech Report \#TR-7.}{May 2018}
+  \end{devPublicationType}
+
+  \begin{devPublicationType}[Poster / Demo]
+    \devTwoColRow{Demo Author.
+      \href{https://example.com/demo1.pdf}{\bf
+      ``Live Demonstration: Blockchain-Enabled Toasters''}.
+      \emph{Presented at the International KitchenTech Expo}. Berlin,
+    Germany.}{October 2019}
+    \devRowSkip
+    \devTwoColRow{P. Researcher, Q. Collaborator.
+      \href{https://example.com/demo2.pdf}{\bf
+      ``Poster: Visualizing Parallel Universe Debugging with VR Goggles''}.
+      \emph{Displayed at SIGGRAPH on Alternate Realities}. Los Angeles,
+    United States.}{August 2017}
+  \end{devPublicationType}
+
+\end{devCVSection}
+
+\end{document}
